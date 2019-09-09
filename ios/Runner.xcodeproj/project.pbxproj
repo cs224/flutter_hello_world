@@ -157,6 +157,8 @@
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
+                                                DevelopmentTeam = 8467KY9FLZ;
+                                                ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -456,6 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterHelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+                                PROVISIONING_PROFILE_SPECIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -479,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterHelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+                                PROVISIONING_PROFILE_SPECIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
