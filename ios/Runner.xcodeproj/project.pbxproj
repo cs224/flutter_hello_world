@@ -380,7 +380,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemagic.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.weisser-zwerg.flutterHelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = codemagic;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -407,7 +407,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemagic.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.weisser-zwerg.flutterHelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				VERSIONING_SYSTEM = "apple-generic";
