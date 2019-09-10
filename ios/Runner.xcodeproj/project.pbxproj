@@ -166,6 +166,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -380,9 +381,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.weisser-zwerg.flutterHelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = codemagic;
+				PROVISIONING_PROFILE_SPECIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -392,7 +393,7 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 8467KY9FLZ;
@@ -407,7 +408,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.weisser-zwerg.flutterHelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "dev.weisser-zwerg.flutterHelloWorld";
 				VERSIONING_SYSTEM = "apple-generic";
